@@ -1,0 +1,199 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+body{
+	background-color: rgb(225,225,225);
+}
+
+.clear{clear: both;}
+
+header{
+	margin-top: 20px;
+}
+
+.logo{
+	float: left;
+}
+
+.menu{
+	float: right;
+}
+
+.menu ul{
+	list-style-type: none;
+}
+
+.menu li{
+	float: left;
+	margin-left: 40px;
+	margin-top: 15px;
+}
+
+.menu a{
+	font-size: 15px;
+	color: #11223f;
+	text-decoration: none;
+}
+
+.menu a span{
+	background-color: #30851d;
+	padding: 10px 20px;
+	color: white;
+	text-transform: uppercase;
+}
+
+/*BENNER*/
+.banner{
+	padding: 90px 0;
+	color: #11223f;
+}
+
+.text-banner{
+	width: 58%;
+	float: left;
+	margin-right: 2%;
+}
+
+.text-banner h2{
+	font-size: 45px;
+}
+
+.text-banner p{
+	font-size: 18px;
+	margin: 15px 0;
+}
+
+.dowload-img img{
+	max-width: 100px;
+	float: left;
+}
+
+.img-banner{
+	float: right;
+	width: 40%;
+}
+
+.img-banner img{
+	width: 100%;
+}
+
+/*SECTION DEPOIMENTS*/
+.depoiments-single{
+	width: 49%;
+	height: 150px;
+	float: left;
+	background-color: white;
+	padding: 10px 20px;
+	font-size: 16px;
+}
+
+.depoiments-single:first-child{
+	margin-right: 2%;
+}
+
+.text-depoiments{
+	width: 80%;
+	float: left;
+}
+
+.text-depoiments p:first-child{
+	padding-right: 10px;
+	margin-top: -15px;
+}
+
+.text-depoiments span{
+	color: #2bb222;
+	font-weight: bold;
+	position: relative;
+	left: 20px;
+	bottom: -120px;
+}
+
+.img-depoiments{
+	width: 20%;
+	float: left;
+}
+
+.img-depoiments img{
+	width: 100%;
+}
+
+/*SECTION SOBRE*/
+section.sobre{
+	padding: 90px 0;
+}
+
+section.sobre .container > h2{
+	color: black;
+	font-size: 35px;
+	text-transform: uppercase;
+}
+
+.line-h2{
+	background-color: #30851d;
+	height: 5px;
+	width: 150px;
+	margin-bottom: 45px;
+}
+
+.sobre-single{
+	width: 32%;
+	float: left;
+	margin-right: 2%;
+}
+
+.sobre-single-last{
+	margin-right: 0;
+}
+
+.sobre-icon{
+	width: 35%;
+	height: 125px;
+	float: left;
+	background-color: #2bb222;
+	text-align: center;
+}
+
+.sobre-icon h3{
+	font-size: 30px;
+	margin-top: 38px
+}
+
+.sobre-icon i{
+	color: white;
+}
+
+.sobre-title{
+	width: 65%;
+	float: left;
+	height: 125px;
+	padding: 5px 10px;
+	background-color: rgb(200,200,200);
+}
+
+.sobre-title > h2{
+	color: black;
+	font-size: 24px;
+}
+
+.sobre-text{
+	width: 100%;
+	background-color: white;
+	min-height: 150px;
+	padding: 30px;
+}
+
+.sobre-text p{
+	font-size: 15px;
+	color: black;
+}
